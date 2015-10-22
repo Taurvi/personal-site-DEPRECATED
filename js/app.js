@@ -10,19 +10,19 @@ var ngApp = angular.module('ngApp', ['ngRoute']);
 ngApp.config('$routerProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'js/views/home.html',
+            templateUrl: '../views/home.html',
             controller: 'CtrlHome'
         })
         .when('/about', {
-            templateUrl: 'views/about.html',
+            templateUrl: '/views/about.html',
             controller: 'CtrlAbout'
         })
         .when('/projects', {
-            templateUrl: 'views/projects.html',
+            templateUrl: '/views/projects.html',
             controller: 'CtrlProjects'
         })
         .when('/resume', {
-            templateUrl: 'views/resume.html',
+            templateUrl: '/views/resume.html',
             controller: 'CtrlResume'
         });
 
