@@ -6,3 +6,44 @@ footer {
     margin-top: 1em;
     font-size: .75em;
 }
+
+.img-home {
+    width: 256px;
+    height: 256px;
+    margin: 5% auto 0 auto;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 50%
+}
+
+#img-about {
+    background: url('../img/me.png');
+}
+
+#img-projects {
+    background: url('../img/code.png');
+}
+
+
+.img-home-overlay {
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    padding:110px 0 110px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    border-radius: 50%
+}
+
+.img-home:hover .img-home-overlay {
+    opacity:1;
+}
+
+.img-home-text {
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:25px;
+    border-radius: 50%
+}
+
