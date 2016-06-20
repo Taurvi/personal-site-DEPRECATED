@@ -1,0 +1,28 @@
+{
+  "name": "personal-site",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Stephen 'Taurvi' Rimbakusumo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular-motion": "^0.4.4",
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "^4.6.3",
+    "angular-strap": "^2.3.9",
+    "angular-animate": "^1.5.7",
+    "bootstrap-additions": "^0.3.1",
+    "angular-sanitize": "^1.5.7"
+  }
+}
