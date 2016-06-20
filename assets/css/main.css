@@ -42,7 +42,7 @@ body {
 .img-home {
     width: 256px;
     height: 256px;
-    margin: 5% auto 0 auto;
+    margin: 5% auto 5% auto;
     background-size: cover;
     overflow: hidden;
     border-radius: 50%
