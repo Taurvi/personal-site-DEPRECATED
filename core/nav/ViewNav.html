@@ -1,19 +1,19 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" bs-collapse data-start-collapsed="true">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" ui-sref="main.home">Stephen Rimbakusumo</a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed"  bs-collapse-toggle>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse navbar-right">
+        <div class="collapse navbar-collapse navbar-right" bs-collapse-target>
             <ul class="nav navbar-nav">
                 <li><a ui-sref="main">Home</a></li>
-                <li ui-sref-active-eq="active"><a ui-sref="main.about">About</a></li>
-                <li ui-sref-active-eq="active"><a ui-sref="main.projects">Projects</a></li>
-                <li ui-sref-active-eq="active"><a ui-sref="main.experience">Experience</a></li>
+                <li ui-sref-active-eq="active"><a ui-sref="main.about" bs-collapse-toggle>About</a></li>
+                <li ui-sref-active-eq="active"><a ui-sref="main.projects" bs-collapse-toggle>Projects</a></li>
+                <li ui-sref-active-eq="active"><a ui-sref="main.experience" bs-collapse-toggle>Experience</a></li>
             </ul>
         </div>
     </div>
